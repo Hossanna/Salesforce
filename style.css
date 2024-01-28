@@ -31,7 +31,7 @@ li:hover, a:hover{
 
 nav{
     justify-content: space-between;
-    padding: 2% 5% 0;
+    padding: 2% 3% 0;
     position: fixed;
     background-color: white;
     width: 100%;
@@ -70,6 +70,15 @@ nav button{
 }
 nav button:hover{
     background-color: black;
+}
+.flex-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    margin-top: -8%;
+    font-weight: lighter;
 }
 
 
